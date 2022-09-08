@@ -1,0 +1,23 @@
+{
+  "name": "a-webserver-for-me",
+  "version": "0.0.1",
+  "description": "Node.js webserver as fuck!",
+  "main": "server.js",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  },
+  "scripts": {
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-malakhannosh.git"
+  },
+  "author": "@malakhannosh",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-malakhannosh/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-malakhannosh#readme"
+}
