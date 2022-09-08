@@ -1,5 +1,5 @@
 // Require http module
-const http = require('Http');
+const http = require('http');
 // Require fs module
 const fs = require('fs');
 // Require minimist module (make sure you install this one via npm).
