@@ -1,7 +1,7 @@
 {
   "name": "a-webserver-for-me",
   "version": "0.0.1",
-  "description": "Node.js webserver as fuck!",
+  "description": "Node.js webserver",
   "main": "server.js",
   "scripts": {
     "test": "node server.js --port=5555",
@@ -11,15 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a01-malakhannosh.git"
   },
-  "keywords": [
-	  "web",
-	  "server",
-	  "port",
-	  "node",
-	  "fs",
-	  "args",
-	  "http"
-  ],
   "author": "malakhannosh",
   "license": "GPL-3.0-or-later",
   "bugs": {
@@ -27,6 +18,7 @@
   },
   "homepage": "https://github.com/comp426-2022-fall/a01-malakhannosh#readme",
   "dependencies": {
+	  "minimalist": "^1.0.0",
 	  "minimist": "^1.2.6"
   }
 }
