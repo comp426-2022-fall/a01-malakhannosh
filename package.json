@@ -18,6 +18,6 @@
   "homepage": "https://github.com/comp426-2022-fall/a01-malakhannosh#readme",
   "dependencies": {
 	  "minimalist": "^1.0.0",
-	  "minimist": "^1.2.6"
+	  "minimist": "^1.2.7"
   }
 }
