@@ -1,10 +1,14 @@
 {
-  "name": "a-webserver-for-me",
+  "name": "my-very-own-webserver",
   "version": "1.0.0",
-  "description": "Node.js webserver",
+  "description": "making a webserver af",
   "main": "server.js",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  },
   "scripts": {
-    "test": "node server.js --port=5555"
+    "test": "node server.js --port=5555",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,9 +19,5 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a01-malakhannosh/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a01-malakhannosh#readme",
-  "dependencies": {
-	  "minimalist": "^1.0.0",
-	  "minimist": "^1.2.7"
-  }
+  "homepage": "https://github.com/comp426-2022-fall/a01-malakhannosh#readme"
 }
