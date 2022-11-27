@@ -1,11 +1,10 @@
 {
   "name": "a-webserver-for-me",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Node.js webserver",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js --port=5555",
-    "start": "node server.js"
+    "test": "node server.js --port=5555"
   },
   "repository": {
     "type": "git",
